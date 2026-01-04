@@ -3,6 +3,10 @@
     flex-direction: column;
 }
 
+.category h2 {
+    padding-block: 1rem;
+}
+
 .category div {
     display: flex;
     flex-wrap: wrap;
