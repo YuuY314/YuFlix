@@ -2,4 +2,6 @@
     display: flex;
     padding-top: 68px;
     flex-direction: column;
+    width: 100%;
+    min-height: 600px;
 }
