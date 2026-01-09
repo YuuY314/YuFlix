@@ -5,6 +5,7 @@ import Header from "../../components/Header";
 import PageNotFound from "../../pages/PageNotFound";
 import styles from "./Watch.module.css";
 import videos from "../../json/videos.json";
+import ScrollToTopButton from "../../components/ScrollToTopButton";
 
 function Watch() {
     const params = useParams()
@@ -13,6 +14,7 @@ function Watch() {
 
     return (
         <>
+            <ScrollToTopButton/>
             <Header/>
             <Container>
                 <section className={styles.watch}>
